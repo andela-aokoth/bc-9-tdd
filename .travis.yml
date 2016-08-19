@@ -7,7 +7,7 @@ python:
   - "3.4"
 # command to install dependencies
 # command to run tests
-script: nosetests
+script: unittest
 env:
   - TEST_SUITE=units
   - TESTFOLDER=TDD/sum
