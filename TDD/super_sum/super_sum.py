@@ -11,5 +11,3 @@ def super_sum(*args):
 
 	total = total_arg_number + total_arg_list
 	return total
-
-print(super_sum(1,2,4,[1,2]))

@@ -3,9 +3,6 @@ from sum import my_sum
 
 class MySumTests(unittest.TestCase):
 
-	def setUp(self):
-		pass
-
 	def test_sum_of_numbers(self):
 		'''
 		Test sum of digits/numbers

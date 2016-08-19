@@ -8,3 +8,7 @@ python:
 # command to install dependencies
 # command to run tests
 script: nosetests
+env:
+  - TEST_SUITE=units
+  - TESTFOLDER=TDD/sum
+  - TESTFOLDER=TDD/super_sum
