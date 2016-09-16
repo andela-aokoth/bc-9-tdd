@@ -14,6 +14,12 @@ class SuperSumTest(unittest.TestCase):
 		self.assertEqual(20, super_sum(15,5), msg='should return 20')
 		self.assertEqual(30, super_sum(21,9), msg='should return 30')
 		self.assertEqual(25, super_sum(19,6), msg='should return 25')
+	
+	def test_normal_list3(self):
+		''' Test normal list with large values 10,20,30 should return 60'''
+		self.assertEqual(20, super_sum(15,5), msg='should return 20')
+		self.assertEqual(30, super_sum(21,9), msg='should return 30')
+		self.assertEqual(25, super_sum(19,6), msg='should return 25')
 
 
 	def test_nested_list(self):
