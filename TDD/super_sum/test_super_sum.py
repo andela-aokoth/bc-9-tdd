@@ -9,19 +9,6 @@ class SuperSumTest(unittest.TestCase):
 		self.assertEqual(4, super_sum(2,2), msg='should return 4')
 		self.assertEqual(6, super_sum(4,2), msg='should return 6')
 
-	def test_normal_list2(self):
-		''' Test normal list with large values 10,20,30 should return 60'''
-		self.assertEqual(20, super_sum(15,5), msg='should return 20')
-		self.assertEqual(30, super_sum(21,9), msg='should return 30')
-		self.assertEqual(25, super_sum(19,6), msg='should return 25')
-	
-	def test_normal_list3(self):
-		''' Test normal list with large values 10,20,30 should return 60'''
-		self.assertEqual(20, super_sum(15,5), msg='should return 20')
-		self.assertEqual(30, super_sum(21,9), msg='should return 30')
-		self.assertEqual(25, super_sum(19,6), msg='should return 25')
-
-
 	def test_nested_list(self):
 		''' Test a nested list with small values: 1,2,3,[4,5] should return 15'''
 		self.assertEqual(10, super_sum(1,2,3,[2,2]), msg='should return 10')
